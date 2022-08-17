@@ -1,0 +1,59 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: beige;
+    background-color: rgb(127, 34, 34);
+}
+
+.homelist{
+    list-style-type: none;
+    padding-left: 0px;
+    
+}
+
+a:link{
+    color: beige; 
+}
+
+a:visited{
+    color: rgb(213, 189, 83); 
+}
+
+a:hover{
+    color: rgb(230, 170, 57);
+}
+
+img {
+    border-style:solid;
+    border-width: 10px;
+    border-color: beige;
+    width:400 px; 
+    height: auto; 
+}
+
+.header{
+    text-align: left;
+    font-size: 32px; 
+}
+
+.recipe,
+.home{
+    background-color:beige; 
+    color: rgb(127, 34, 34);
+    border: 0px; 
+    width: auto;
+    height: 30px; 
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8px; 
+}
+
+.recipe:hover,
+.home:hover{
+    background-color:rgb(230, 170, 57);
+}
+
+.recipe{
+    width: auto; 
+    height: 50px; 
+    font-weight: 800px;
+}
